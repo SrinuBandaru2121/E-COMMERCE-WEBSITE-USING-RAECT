@@ -1,0 +1,21 @@
+.nav{
+    background-color:beige;
+    height:65px;
+    display:flex;
+}
+.left{
+    flex-basis:40%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin-left:40px;
+
+}
+.right{
+    flex-basis:60%;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    margin-right:60px;
+    gap:20px;
+}
